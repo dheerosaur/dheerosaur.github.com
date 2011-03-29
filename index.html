@@ -1,10 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <title>Dheeraj Sayala</title>
-</head>
-<body>
-  Hello World!
-</body>
-</html>
+---
+layout: default
+title: Dheeraj Sayala
+---
+
+<aside id="sidebar" class="grid_3">
+  <nav>
+    <ul>
+      <li><a href="/archives">Archives</a></li>
+      <li><a href="/categories">Categories</a></li>
+      <li><a href="/recent">Recent</a></li>
+      <li><a href="/others">Others</a></li>
+    </ul>
+  </nav>
+</aside>
+
+<section id="main" class="grid_9">
+  {% for post in site.posts limit:5 %}	
+    <article class="post">
+      <a href="{{ post.url }}" class="post-title">{{ post.title }}</a>
+      <div class="post-body">
+        {{post.content}}
+      </div>
+    </article>
+  {% endfor %}
+</section>
+
+
+
