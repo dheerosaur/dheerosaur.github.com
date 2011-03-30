@@ -192,13 +192,18 @@ h1, h2, h3 { font-family: "Yanone Kaffeesatz", "Yanone Kaffeesatz Regular", Puri
   color: #dc2829;
 }
 .post-body::first-letter { font-size: 150%; }
-a.post-title {
+.post-title a{
   color: #777;
   font-size: 28px;
+  font-weight: normal;
   letter-spacing: 1px;
   font-family: "Yanone Kaffeesatz", "Yanone Kaffeesatz Regular", Puritan;
   text-decoration: none;
   text-shadow: 2px 2px 4px #CCC;
+}
+.post-title a:hover {
+  color: #dc2829; 
+  text-shadow: none;
 }
 
 .no-fontface .post-title, h3 { font-family: Puritan;  font-size: 24px; letter-spacing: inherit; }
