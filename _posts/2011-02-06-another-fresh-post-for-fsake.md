@@ -2,6 +2,7 @@
 layout: post
 title: Hippity Hoppity Hop
 excerpt: Robert Lewis Stevenson is a good friend of Lewis Caroll. It has been recently uncovered.
+categories: [Humor, Latin]
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
@@ -40,5 +41,3 @@ voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et a
 aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non
 recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus
 maiores alias consequatur aut perferendis doloribus asperiores repellat.
-
-________________________________________________________

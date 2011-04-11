@@ -3,27 +3,33 @@ layout: default
 title: Dheeraj Sayala
 ---
 
-<aside id="sidebar" class="grid_3">
-  <nav>
-    <ul>
-      <li><a href="/archives">Archives</a></li>
-      <li><a href="/categories">Categories</a></li>
-      <li><a href="/recent">Recent</a></li>
-      <li><a href="/others">Others</a></li>
-    </ul>
-  </nav>
-</aside>
 
-<section id="main" class="grid_9">
+<section id="main">
   {% for post in site.posts limit:5 %}	
+
+  <section class="blog-post">
+    <aside class="sidebar">
+      <div class="post-meta">
+        <time datetime="{{post.date|date:"%Y-%m-%d"}}">{{ post.date|date:"%b %d, %Y"}}</time>
+        in{% for category in post.categories %} {{category}} {% endfor %}
+      </div>
+    </aside>
+
     <article class="post">
-    <h2 class="post-title"> <a href="{{ post.url }}">{{ post.title }}</a> </h2>
+      <header class="post-title">
+        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+      </header>
       <div class="post-body">
         {{post.content}}
       </div>
     </article>
+  </section>
+
+  <div class="gap"></div>
+
   {% endfor %}
 </section>
 
+<hr />
 
 

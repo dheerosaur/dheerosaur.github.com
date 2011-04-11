@@ -2,6 +2,7 @@
 layout: post
 title: Python2 to Python3
 excerpt: Python2 has been there for a very long time. We are going to move to Python3 now an art.
+category: Python
 ---
 
 On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and
@@ -31,5 +32,3 @@ et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullam
 aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
 culpa qui officia deserunt mollit anim id est laborum.
-
--------------------------------------------
