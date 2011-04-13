@@ -7,25 +7,23 @@ title: Dheeraj Sayala
 <section id="main">
   {% for post in site.posts limit:5 %}	
 
-  <section class="blog-post">
-    <aside class="sidebar">
-      <div class="post-meta">
-        <time datetime="{{post.date|date:"%Y-%m-%d"}}">{{ post.date|date:"%b %d, %Y"}}</time>
-        in {% for category in post.categories %} {{category}} {% endfor %}
-      </div>
-    </aside>
+    <section class="blog-post">
+      <aside class="sidebar">
+        <div class="post-meta">
+          <time datetime="{{post.date|date:"%Y-%m-%d"}}">{{ post.date|date:"%b %d, %Y"}}</time>
+          in {% for category in post.categories %} {{category}} {% endfor %}
+        </div>
+      </aside>
 
-    <article class="post">
-      <header class="post-title">
-        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-      </header>
-      <div class="post-body">
-        {{post.content}}
-      </div>
-    </article>
-  </section>
-
-  <div class="gap"></div>
+      <article class="post">
+        <header class="post-title">
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </header>
+        <div class="post-body">
+          {{post.content}}
+        </div>
+      </article>
+    </section>
 
   {% endfor %}
 </section>

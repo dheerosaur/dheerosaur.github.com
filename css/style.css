@@ -4,15 +4,15 @@
 
 body {
   background-color: #f6f6f6;
-  background: url("/images/body-bg.gif") #f6f6f6 repeat; 
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAHklEQVQImU3DwQkAMBAEoem/XBvYewUiWBXWDwt7DwJ+EypMsWNdAAAAAElFTkSuQmCC) #f6f6f6 repeat; 
 }
 #container, #main, .blog-post { height: 100%; overflow: hidden; }
 
 #header { 
   margin-bottom: 70px;
   padding: 5px 0;
-  -moz-box-shadow: 0 0 5px red;
-  -webkit-box-shadow: 0 0 5px red;
+  -moz-box-shadow: 0 0 5px lightgrey;
+  -webkit-box-shadow: 0 0 5px lightgrey;
   box-shadow: 0 0 5px lightgrey
 }
 h1, h2, h3 { font-family: "Yanone Kaffeesatz", "Yanone Kaffeesatz Regular", Puritan; }
