@@ -3,8 +3,7 @@
 */
 
 body {
-  background-color: #f6f6f6;
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAHklEQVQImU3DwQkAMBAEoem/XBvYewUiWBXWDwt7DwJ+EypMsWNdAAAAAElFTkSuQmCC) #f6f6f6 repeat; 
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAGUlEQVQImWN49+7dfwYGBgYYjcl49+7dfwBwxBLuSPEiiwAAAABJRU5ErkJggg==) #f6f6f6 repeat; 
 }
 #container, #main, .blog-post { height: 100%; overflow: hidden; }
 
@@ -118,13 +117,13 @@ h1, h2, h3 { font-family: "Yanone Kaffeesatz", "Yanone Kaffeesatz Regular", Puri
 .post { 
   float: left;
   width: 700px;
-  margin: 0 10px 0 10px;
+  margin: 0 10px 10px 10px;
 }
 
 .post-title a{
   color: #777;
-  letter-spacing: 1px;
-  font: 28px/36px "Yanone Kaffeesatz", "Yanone Kaffeesatz Regular", Puritan;
+  letter-spacing: 2px;
+  font: 26px/36px "Yanone Kaffeesatz", "Yanone Kaffeesatz Regular", Puritan;
   text-decoration: none;
   text-shadow: 2px 2px 4px #CCC;
 }

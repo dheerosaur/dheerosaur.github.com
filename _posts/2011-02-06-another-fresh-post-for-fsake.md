@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hippity Hoppity Hop
+title: A Python script to create slideshow backgrounds for Ubuntu
 excerpt: Robert Lewis Stevenson is a good friend of Lewis Caroll. It has been recently uncovered.
 categories: [Humor, Latin]
 ---
