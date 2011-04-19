@@ -5,7 +5,9 @@
 body {
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAGUlEQVQImWN49+7dfwYGBgYYjcl49+7dfwBwxBLuSPEiiwAAAABJRU5ErkJggg==) #f6f6f6 repeat; 
 }
-#container, #main, .blog-post { height: 100%; overflow: hidden; }
+#container, #main, #recent-posts, .post, #about-me, #contact { 
+  height: 100%; overflow: hidden;
+}
 
 #header { 
   margin-bottom: 70px;
@@ -93,19 +95,15 @@ h1, h2, h3 { font-family: "Yanone Kaffeesatz", "Yanone Kaffeesatz Regular", Puri
 
 .sidebar {
   float: left;
+  margin-right: 10px;
   width: 215px;
-  margin: 0 10px 0 5px;
-}
-
-.post-meta {
-  float: right;
-  margin-top: 4px;
   text-align: right;
   color: #444;
 }
-.post-meta time { 
-  padding: 2px 15px;
-  font: 16px/28px "Palatino Linotype", "Book Antiqua3", Palatino, serif;
+.sidebar time { 
+  float: right;
+  padding: 0 15px;
+  font: 14px/28px "Palatino Linotype", "Book Antiqua3", Palatino, serif;
   letter-spacing: 1px;
   display: block;
   
@@ -114,16 +112,16 @@ h1, h2, h3 { font-family: "Yanone Kaffeesatz", "Yanone Kaffeesatz Regular", Puri
 
 }
 
-.post { 
+.post-title { 
   float: left;
-  width: 700px;
+  width: 660px;
   margin: 0 10px 10px 10px;
 }
 
 .post-title a{
   color: #777;
-  letter-spacing: 2px;
-  font: 26px/36px "Yanone Kaffeesatz", "Yanone Kaffeesatz Regular", Puritan;
+  letter-spacing: 1px;
+  font: 18px/ 36px "Droid Sans", sans-serif;
   text-decoration: none;
   text-shadow: 2px 2px 4px #CCC;
 }
