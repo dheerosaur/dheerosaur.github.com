@@ -3,8 +3,13 @@
 */
 
 body {
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAGUlEQVQImWN49+7dfwYGBgYYjcl49+7dfwBwxBLuSPEiiwAAAABJRU5ErkJggg==) #f6f6f6 repeat; 
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAL0lEQVQImWP49evXfxj+8uXLf2Q+AzLn27dvJEh++fLl/7dv3zDwly9fKDEWn2sBAPe/qu5io48AAAAASUVORK5CYII=") repeat scroll 0 0 #F8F8F8;
 }
+.container_12 {
+  margin: 0 auto;
+  width: 800px;
+}
+
 #container, #main, #recent-posts, .post, #about-me, #contact { 
   height: 100%; overflow: hidden;
 }
@@ -33,10 +38,9 @@ h1, h2, h3 { font-family: "Yanone Kaffeesatz", "Yanone Kaffeesatz Regular", Puri
   text-decoration: none;
   color: #f2f2f2;
   text-shadow: 0 0 1px #444;
+  letter-spacing: 2px;
+  font-size: 25px;
 }
-#fname, #lname { letter-spacing: 2px; }
-#fname { font-size: 26px; }
-#lname { font-size: 25px; }
 
 #logo:hover { 
   background-color: rgba(220, 40, 41, 0.9);
@@ -96,6 +100,7 @@ h1, h2, h3 { font-family: "Yanone Kaffeesatz", "Yanone Kaffeesatz Regular", Puri
 .sidebar {
   float: left;
   margin-right: 10px;
+  margin-top: 4px;
   width: 215px;
   text-align: right;
   color: #444;
@@ -114,16 +119,15 @@ h1, h2, h3 { font-family: "Yanone Kaffeesatz", "Yanone Kaffeesatz Regular", Puri
 
 .post-title { 
   float: left;
-  width: 660px;
+  width: 520px;
   margin: 0 10px 10px 10px;
 }
 
 .post-title a{
-  color: #777;
+  color: #666;
   letter-spacing: 1px;
-  font: 18px/ 36px "Droid Sans", sans-serif;
+  font: 17px/ 34px "Droid Sans", sans-serif;
   text-decoration: none;
-  text-shadow: 2px 2px 4px #CCC;
 }
 .post-title, .post-body {
    padding: 0 10px;
@@ -142,7 +146,7 @@ h1, h2, h3 { font-family: "Yanone Kaffeesatz", "Yanone Kaffeesatz Regular", Puri
   color: rgba(241, 41, 40, 0.7);
 }
 .post-title a:hover, .post-body a:hover {
-  color: rgba(241, 41, 40, 0.9);
+  color: #dc2829;
 }
 
 .no-fontface .post-title, h3 { font-family: Puritan;  font-size: 24px; letter-spacing: inherit; }
@@ -178,8 +182,3 @@ h1, h2, h3 { font-family: "Yanone Kaffeesatz", "Yanone Kaffeesatz Regular", Puri
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3{ page-break-after: avoid; }
 }
-
-
-
-
-
