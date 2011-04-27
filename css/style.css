@@ -149,6 +149,20 @@ h1, h2, h3 { font-family: "Yanone Kaffeesatz", "Yanone Kaffeesatz Regular", Puri
   color: #dc2829;
 }
 
+.fullpost {
+  margin: 0 10px;
+  padding: 0 10px;
+}
+.fullpost {
+  font: 17px/24px "Droid Sans";
+}
+.fullpost > * {
+  margin-bottom: 10px;
+}
+.fullpost h2 {
+  font: 36px/55px "Droid Serif";
+}
+
 .no-fontface .post-title, h3 { font-family: Puritan;  font-size: 24px; letter-spacing: inherit; }
 .no-fontface #fname {  font-family: Puritan; font-size: 30px; letter-spacing: 2px; }
 .no-fontface #lname {  font-family: Puritan; font-size: 24px; letter-spacing: 1px; }

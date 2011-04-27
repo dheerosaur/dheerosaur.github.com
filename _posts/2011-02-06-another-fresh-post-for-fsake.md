@@ -5,6 +5,9 @@ excerpt: Robert Lewis Stevenson is a good friend of Lewis Caroll. It has been re
 categories: [Humor, Latin]
 ---
 
+A Python script to create slideshow backgrounds for Ubuntu
+----------------------------------------------------------
+
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
 aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
