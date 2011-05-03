@@ -14,48 +14,50 @@
   <meta name="author" content="Dheeraj Sayala">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz|Droid+Sans' rel='stylesheet' type='text/css'>
   <link rel="shortcut icon" href="/favicon.ico">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <link rel="stylesheet" href="/css/reset.css">
-  <link rel="stylesheet" href="/css/960.css">
-  <link rel="stylesheet" href="/css/style.css">
-  <script src="js/libs/modernizr-1.6.min.js"></script>
+  <link rel="stylesheet" href="/css/style.min.css">
+  <script src="http://ajax.cdnjs.com/ajax/libs/modernizr/1.7/modernizr-1.7.min.js"></script>
 
 </head>
 
 <body>
 
-  <div id="container" class="container_12">
+  <div id="container">
 	
     <header id="header" class="clearfix">
-		<h1 id="logo" class="grid_3">
+    <h1 id="logo">
 			<a href="/">
         Dheeraj Sayala
 			</a>
 		</h1>
-    <nav id="nav" class="grid_5">
+    <nav id="nav">
 			<ul>
 				<li><a href="#">about</a></li>
 				<li><a href="#">blog</a></li>
 				<li><a href="#">contact</a></li>
 			</ul>
 		</nav>
-		<ul id="social-icons" class="grid_2">
+    <ul id="social-icons">
 			<li ><a class="tw" title="Follow me on Twitter" href="http://twitter.com/dheerosaur"></a></li>
 			<li ><a class="fb" title="Facebook"
         href="http://www.facebook.com/people/Dheeraj-Sayala/657501573"></a></li>
-			<li ><a class="fr" title="Photos on flickr" href="http://flickr.com/photos/dheerosaur"></a></li>
+			<!--<li ><a class="fr" title="Photos on flickr"
+        href="http://flickr.com/photos/dheerosaur"></a></li>-->
 		</ul>
     </header>
 
     
     {{content}}
     
-    <footer id="footer">
-		<p id="copyright" class="grid_3">@ Copyright 2011 Dheeraj Sayala</p>
-		<p id="powered-by" class="grid_7">Powered by <a>Jekyll</a>, Github, HTML5, CSS3</p>
+    <footer id="footer" class="clearfix">
+		<p id="copyright">© Copyright 2011 Dheeraj Sayala</p>
+    <p id="powered-by">Powered by 
+      <a href="https://github.com/mojombo/jekyll">Jekyll</a>,
+      <a href="http://github.com">Github</a>,
+       HTML5,
+       CSS3
+    </p>
     </footer>
   </div> <!-- end of #container -->
 

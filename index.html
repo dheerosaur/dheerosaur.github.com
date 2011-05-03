@@ -5,18 +5,23 @@ title: Dheeraj Sayala
 
 
 <section id="main">
-  <section id="recent-posts">
-    {% for post in site.posts limit:5 %}	
-    <article class="post">
-        <aside class="sidebar">
-            <time datetime="{{post.date|date:"%Y-%m-%d"}}">{{ post.date|date:"%b %d, %Y"}}</time>
-            <!--in {% for category in post.categories %} {{category}} {% endfor %}-->
-        </aside>
-
-        <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      </article>
-
-    {% endfor %}
+  <section id="about-me">
+    <img id="photo" src="/images/photo.jpg" />
+    <p id="intro">I am a programmer enchanted by the charms of the Web. I cast spells in Python,
+    JavaScript, HTML5 and CSS3 to create my own magic. My favorite wand is made of Bash, Vim, Git
+    and I wear the hats of the developer, the designer and many more.
+    </p>
+    <p id="connect">
+      I go as dheerosaur on 
+      <a href="http://twitter.com/dheerosaur">Twitter</a>,
+      <a href="https://github.com/dheerosaur">Github</a>,
+      <a href="http://stackoverflow.com/users/438838/dheerosaur">StackOverflow</a>,
+      <a href="http://www.flickr.com/people/dheerosaur/">Flickr</a> and
+      IRC.
+      You can also connect with me on 
+      <a href="http://www.facebook.com/people/Dheeraj-Sayala/657501573">Facebook</a>,
+      <a href="http://www.quora.com/Dheeraj-Sayala">Quora</a>
+      or send an email to dheerosaur at gmail.
+    </p>
   </section>
 </section>
-<hr/>
