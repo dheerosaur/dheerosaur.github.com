@@ -22,7 +22,7 @@ a:hover {
 }
 #main {
   margin: 0 auto;
-  width:750px;
+  width:780px;
 }
 
 #container, #main, #recent-posts, .post, #about-me, #contact { 
@@ -83,6 +83,7 @@ h1, h2, h3 { font-family: "Yanone Kaffeesatz", "Yanone Kaffeesatz Regular", Puri
 #nav a:hover { 
   color: #444;
   background-color: #eee;
+  text-decoration: none;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
@@ -123,17 +124,14 @@ h1, h2, h3 { font-family: "Yanone Kaffeesatz", "Yanone Kaffeesatz Regular", Puri
 #about-me {
   width: 760px;
   padding-top: 60px;
+  margin: 0 10px;
   font: 18px/1.5 "Droid Sans";
 }
 
 #intro, #connect {
-  width: 515px;
+  width: 520px;
   float: right;
-  margin: 5px 10px;
-}
-
-#connect {
-  margin: 20px 10px 0 10px;
+  margin: 10px 10px;
 }
 
 #photo {
@@ -212,6 +210,7 @@ h1, h2, h3 { font-family: "Yanone Kaffeesatz", "Yanone Kaffeesatz Regular", Puri
   width: 760px;
   color: #666;
   margin: 70px 10px 10px 10px;
+  padding: 10px 0;
   border-top: 1px solid lightgrey;
   font: 15px/1.5 "Droid Sans";
 }
