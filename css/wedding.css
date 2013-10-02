@@ -61,13 +61,16 @@ textarea {
    ========================================================================== */
 
 body {
-  background-color: #f5f5f5;
+  background: #f5f5f5 url(../images/xv.png) repeat 0 0;
 }
 
 #wrap {
   max-width: 1440px;
   margin: 0 auto;
   background: #ddd;
+  -webkit-box-shadow: 0 0 10px #aaa;
+  -moz-box-shadow: 0 0 10px #aaa;
+  box-shadow: 0 0 10px #aaa;
 }
 
 h1, h2 {
@@ -106,7 +109,7 @@ header {
   }
 
 .content {
-  padding: 30px 0;
+  padding: 10px 0;
   color: #444;
 }
 .col {
@@ -120,27 +123,30 @@ header {
 }
 
 .content .col {
+  margin: 20px 0;
   text-align: center;
 }
   .content .col img {
     opacity: 0.8;
+    width: 100px;
+    height: 100px;
   }
   .content .col h2 {
-    font-size: 2em;
+    font-size: 1.8em;
     margin: 5px 0;
   }
   .content .col p {
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin: 5px 0;
   }
   .content .col p.lead {
     font-family: serif;
-    font-size: 1.5em;
+    font-size: 1.4em;
     margin: 0;
   }
 
 .other {
-  padding: 20px 0;
+  padding: 10px 0;
   margin: 10px 0;
   border-top: 1px solid #444;
   border-bottom: 1px solid #999;
@@ -150,7 +156,7 @@ header {
   margin: 5px 0;
   border-bottom: 1px solid #ccc;
 }
-.contact p { font-size: 1.5em; }
+.contact p { font-size: 1.2em; }
 .contact p span { font-size: 1.1em; }
 
 #map_canvas {
@@ -165,13 +171,17 @@ header {
 @media only screen and (min-width: 35em) {
   header .weds h1 { font-size: 3em; }
   header .weds p { font-size: 1.75em; }
+  .content .col img {
+    width: 128px;
+    height: 128px;
+  }
 }
 @media only screen and (min-width: 50em) {
   .content .col {
     float: left;
     width: 33.33%;
   }
-  #map_canvas { width: 98%; }
+  #map_canvas { width: 90%; }
   .other .col { float: left; }
   .other .map { width: 66%; }
   .other .contact {width: 33%; }

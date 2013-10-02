@@ -48,7 +48,7 @@
         <img src="/images/food.png" alt="Food icon" width="128" height="128"/>
         <h2>Lunch</h2>
         <p class="lead">12 PM onwards</p>
-        <p>After the wedding,<br>in the wedding hall</p>
+        <p>After the wedding,<br>in the same hall</p>
       </div>
     </div>
     <div class="other clearfix">
@@ -60,6 +60,7 @@
         <p>Dheeraj<br><span>87908 23686</span></p>
         <p>Keerthy<br><span>80996 86103</span></p>
         <p>Mr.Sathyam<br><span>98666 38161</span></p>
+        <p>Mrs.Krishnaveni<br><span>94417 26156</span></p>
       </div>
     </div>
   </div>
@@ -67,9 +68,10 @@
   <script>
     function initialize() {
       var minerva = new google.maps.LatLng(17.458218,78.3711);
+      var center = new google.maps.LatLng(17.454613,78.373651);
       var map_canvas = document.getElementById('map_canvas');
       var map_options = {
-        center: minerva,
+        center: center,
         zoom: 15,
         mapTypeId: google.maps.MapTypeId.ROADMAP
       }
