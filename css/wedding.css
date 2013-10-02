@@ -147,7 +147,7 @@ header {
 .other {
   padding: 10px 0;
   margin: 10px 0;
-  border-top: 1px solid #444;
+  border-top: 1px solid #999;
   border-bottom: 1px solid #999;
   color: #444;
 }
@@ -182,7 +182,7 @@ header {
   }
   #map_canvas { width: 90%; }
   .other .col { float: left; }
-  .other .map { width: 66%; }
+  .other .map { width: 67%; }
   .other .contact {width: 33%; }
   header .weds h1 { font-size: 4em; }
   header .weds p { font-size: 2em; }
@@ -331,4 +331,10 @@ header {
     h3 {
         page-break-after: avoid;
     }
+
+    .content .col { margin: 5px 0; padding: 0; }
+    .content .col img { height: 48px; width: 48px; }
+    header img { display: none; }
+    .map { display: none; }
+    .other, .other .col { margin: 0; border: none; }
 }
