@@ -77,7 +77,9 @@ h1, h2 {
 header {
   position: relative;
   border-top: 5px solid green;
-  border-bottom: 5px solid #222;
+  -webkit-box-shadow: 0 2px 8px #000;
+  -moz-box-shadow: 0 2px 8px #000;
+  box-shadow: 0 2px 8px #000;
 }
   header .cover {
     width: 100%;
@@ -106,7 +108,6 @@ header {
 
 .content {
   padding: 30px 0;
-  border-top: 5px solid #666;
   color: #444;
 }
 .content .col {
