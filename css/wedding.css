@@ -137,11 +137,7 @@ header {
   }
 
 .map {
-  text-align: center;
-  border-top: 1px solid #444;
-  border-bottom: 1px solid #999;
-  padding: 20px 0;
-  margin: 10px 0;
+  display: none;
 }
 
 /* ==========================================================================
@@ -150,6 +146,15 @@ header {
 @media only screen and (min-width: 35em) {
   header .weds h1 { font-size: 3em; }
   header .weds p { font-size: 1.75em; }
+  .map {
+    display: block;
+    text-align: center;
+    border-top: 1px solid #444;
+    border-bottom: 1px solid #999;
+    padding: 20px 0;
+    margin: 10px 0;
+  }
+}
 }
 @media only screen and (min-width: 50em) {
   .content .col {
