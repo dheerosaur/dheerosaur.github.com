@@ -149,9 +149,8 @@ header {
   margin: 5px 0;
   border-bottom: 1px solid #ccc;
 }
-.contact p {
-  font-size: 1.5em;
-}
+.contact p { font-size: 1.5em; }
+.contact p span { font-size: 0.8em; }
   
 .map {
   display: none;
