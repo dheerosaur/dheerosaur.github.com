@@ -1,2 +1,1 @@
-This is my personal website and blog hosted on Github pages. It uses
-[Jekyll](http://github.com/mojombo/jekyll).
+This is my personal website and blog hosted on Github pages using Jekyll.
